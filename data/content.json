@@ -1,0 +1,1148 @@
+{
+  "pack": "health-claims",
+  "version": 3,
+  "generated": "2026-10-22",
+  "rating_scale": [
+    "supported",
+    "extrapolated beyond evidence",
+    "unsupported"
+  ],
+  "policy": "Neutral wording; claims assessed, not people. Exact quotes only where wording verified from transcript.",
+  "claims": [
+    {
+      "id": "hc01",
+      "person": "Andrew Huberman",
+      "topic": "caffeine",
+      "claim": "\"I'll sort of delay caffeine by a little while, usually 90 minutes to two hours.\"",
+      "wording_status": "verified quote \u2014 Huberman Lab, 'Dr. Matt Walker: The Science & Practice of Perfecting Your Sleep', chapter 'Caffeine' starting 00:49:20",
+      "claim_sources": [
+        "hl-walker"
+      ],
+      "research": [
+        {
+          "text": "A 2024 evidence review found no basis in cortisol or adenosine physiology for the claim that delaying morning caffeine prevents an afternoon crash.",
+          "sources": [
+            "caff-review"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "unsupported",
+      "reasoning": "Mechanism proposed is not demonstrated; no trial tests the delay."
+    },
+    {
+      "id": "hc02",
+      "person": "Andrew Huberman",
+      "topic": "cold exposure",
+      "claim": "\"The subjects also experienced a 250% increase in dopamine concentrations, which, while not 530% as it was with norepinephrine, is still a very large increase in baseline levels of dopamine.\"",
+      "wording_status": "verified quote \u2014 Huberman Lab, 'Using Deliberate Cold Exposure for Health and Performance' (2022), chapter 'Cold Exposure for Dopamine, Mood & Focus' starting 01:00:22",
+      "claim_sources": [
+        "hl-cold"
+      ],
+      "research": [
+        {
+          "text": "\u0160r\u00e1mek et al. (n=10) measured ~250% plasma dopamine rise after 1 h immersion at 14 \u00b0C; plasma dopamine does not cross the blood\u2013brain barrier.",
+          "sources": [
+            "sramek-2000",
+            "claimgrade-cold"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "extrapolated beyond evidence",
+      "reasoning": "The figure matches the study, but it was plasma dopamine after 1 h at 14 \u00b0C; applying it to brain dopamine, mood or brief plunges is untested."
+    },
+    {
+      "id": "hc03",
+      "person": "Andrew Huberman",
+      "topic": "cold exposure",
+      "claim": "Cold-induced dopamine increase is comparable to cocaine.",
+      "wording_status": "paraphrase, unverified wording",
+      "claim_sources": [
+        "magellan-hub"
+      ],
+      "research": [
+        {
+          "text": "The comparison links a human plasma study to a 1989 rat brain microdialysis study; measures are not comparable.",
+          "sources": [
+            "magellan-hub",
+            "sramek-2000"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "unsupported",
+      "reasoning": "Cross-species, cross-compartment comparison."
+    },
+    {
+      "id": "hc04",
+      "person": "Andrew Huberman",
+      "topic": "cold exposure",
+      "claim": "\"If your main goal is hypertrophy and strength, it is probably best to avoid cold-water immersion and ice-bath immersion in the four hours immediately following that strength and/or hypertrophy training.\"",
+      "wording_status": "verified quote \u2014 Huberman Lab cold-exposure episode, chapter 'Cold, Physical Performance, Inflammation' starting 01:36:22",
+      "claim_sources": [
+        "hl-cold"
+      ],
+      "research": [
+        {
+          "text": "An RCT found post-exercise cold water immersion attenuated long-term gains in muscle mass and strength and acute anabolic signalling.",
+          "sources": [
+            "roberts-2015"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Direct RCT evidence."
+    },
+    {
+      "id": "hc05",
+      "person": "Andrew Huberman",
+      "topic": "light",
+      "claim": "\"Aim for at least 10-15 minutes of sunlight right after waking, especially if you're waking before sunrise.\"",
+      "wording_status": "verified wording \u2014 written protocol text on the Huberman Lab episode page (Matt Walker episode); not a spoken quote, no timestamp",
+      "claim_sources": [
+        "hl-walker"
+      ],
+      "research": [
+        {
+          "text": "Bright light pulses shift human circadian phase in a time-dependent manner (phase response curve).",
+          "sources": [
+            "khalsa-2003"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Transition to bright light in the morning acutely raises cortisol.",
+          "sources": [
+            "leproult-2001"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Core circadian physiology; specific durations recommended are extrapolations."
+    },
+    {
+      "id": "hc06",
+      "person": "Andrew Huberman",
+      "topic": "light",
+      "claim": "Evening light from screens delays sleep and circadian timing.",
+      "wording_status": "paraphrase, unverified wording",
+      "claim_sources": [
+        "hl-light"
+      ],
+      "research": [
+        {
+          "text": "Reading on light-emitting eReaders before bed delayed melatonin and sleep onset vs printed books.",
+          "sources": [
+            "chang-2015"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Small RCT; effect sizes modest."
+    },
+    {
+      "id": "hc07",
+      "person": "Andrew Huberman",
+      "topic": "light",
+      "claim": "\"There certainly is a place for blue blockers in the evening and nighttime if you're having issues with falling and staying asleep.\"",
+      "wording_status": "verified quote \u2014 Huberman Lab, 'Using Light...' episode, chapter 'Tools: Sunlight (UVB), Blue-Light Blockers, Seasonal Affective Disorder' starting 01:12:48",
+      "claim_sources": [
+        "hl-light"
+      ],
+      "research": [
+        {
+          "text": "Cochrane review: blue-light filtering spectacle lenses may not reduce visual fatigue; effects on sleep quality are uncertain (low-certainty evidence).",
+          "sources": [
+            "blue-light"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "extrapolated beyond evidence",
+      "reasoning": "Cochrane finds sleep effects of blue-filtering lenses uncertain; a conditional, evening-only suggestion goes beyond the evidence but isn't contradicted."
+    },
+    {
+      "id": "hc08",
+      "person": "Andrew Huberman",
+      "topic": "alcohol",
+      "claim": "There is no safe level of alcohol consumption for health.",
+      "wording_status": "paraphrase, unverified wording",
+      "claim_sources": [
+        "hl-alcohol"
+      ],
+      "research": [
+        {
+          "text": "WHO Europe states no level of alcohol consumption is safe for health.",
+          "sources": [
+            "who-alcohol"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "GBD 2016 modelling concluded the level minimising health loss is zero.",
+          "sources": [
+            "gbd-2018"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Consistent with WHO and GBD; some debate on low-dose estimates."
+    },
+    {
+      "id": "hc09",
+      "person": "Andrew Huberman",
+      "topic": "supplements",
+      "claim": "Tongkat ali can raise testosterone.",
+      "wording_status": "paraphrase, unverified wording \u2014 topic discussed in Huberman Lab testosterone episode, chapter 'Free and Bound Testosterone: SHBG, Tongkat Ali' starting 01:40:14 (exact claim wording not found)",
+      "claim_sources": [
+        "hl-tongkat"
+      ],
+      "research": [
+        {
+          "text": "A meta-analysis of small trials found Eurycoma longifolia increased total testosterone, mostly in hypogonadal men; studies were of limited quality.",
+          "sources": [
+            "tongkat-ma"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "extrapolated beyond evidence",
+      "reasoning": "Some human data but small, heterogeneous, population-specific."
+    },
+    {
+      "id": "hc10",
+      "person": "Andrew Huberman",
+      "topic": "supplements",
+      "claim": "Fadogia agrestis can raise testosterone.",
+      "wording_status": "paraphrase, unverified wording \u2014 Fadogia agrestis is listed in the same episode's chapter list ('Optimizing Brain Hormones: Chorionic Gonadotropin, Fadogia Agrestis'); exact claim wording not found",
+      "claim_sources": [
+        "hl-tongkat"
+      ],
+      "research": [
+        {
+          "text": "Evidence comes from rat studies; one rat study also reported testicular toxicity signals.",
+          "sources": [
+            "fadogia-rat"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "unsupported",
+      "reasoning": "No human trials located."
+    },
+    {
+      "id": "hc11",
+      "person": "Andrew Huberman",
+      "topic": "NSDR",
+      "claim": "Yoga nidra/NSDR increases striatal dopamine.",
+      "wording_status": "paraphrase, unverified wording \u2014 ATTRIBUTION GAP: no episode located yet",
+      "claim_sources": [],
+      "research": [
+        {
+          "text": "A PET study of 8 experienced meditation teachers found increased endogenous dopamine release (reduced raclopride binding) during yoga nidra.",
+          "sources": [
+            "hl-nsdr"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "extrapolated beyond evidence",
+      "reasoning": "Tiny sample of experts; generalisation to protocols is untested."
+    },
+    {
+      "id": "hc12",
+      "person": "Andrew Huberman",
+      "topic": "ashwagandha",
+      "claim": "Ashwagandha reduces stress/cortisol.",
+      "wording_status": "paraphrase, unverified wording \u2014 ATTRIBUTION GAP: no episode located yet",
+      "claim_sources": [],
+      "research": [
+        {
+          "text": "Meta-analysis found ashwagandha reduced perceived stress and anxiety scores vs placebo, with low-to-moderate certainty.",
+          "sources": [
+            "ashwa-ma"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Modest, short-term evidence; note certainty."
+    },
+    {
+      "id": "hc13",
+      "person": "Andrew Huberman",
+      "topic": "magnesium",
+      "claim": "Magnesium (threonate/bisglycinate) aids sleep.",
+      "wording_status": "paraphrase, unverified wording \u2014 a 'Magnesium' chapter (01:54:14) appears in the chapter list on the Walker episode page; exact claim wording not verified",
+      "claim_sources": [
+        "hl-walker"
+      ],
+      "research": [
+        {
+          "text": "Systematic review (3 RCTs, 151 older adults): magnesium shortened sleep-onset latency by about 17 minutes; low to very low quality evidence.",
+          "sources": [
+            "magl-sleep"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "extrapolated beyond evidence",
+      "reasoning": "Evidence low quality and not form-specific."
+    },
+    {
+      "id": "hc14",
+      "person": "Rhonda Patrick",
+      "topic": "sauna",
+      "claim": "\"Men who used the sauna roughly twice as often, about four to seven times per week, experienced roughly twice the benefits \u2013 and were 50 percent less likely to die from cardiovascular-related causes.\"",
+      "wording_status": "verified wording \u2014 written text on FoundMyFitness sauna topic page (not a podcast quote)",
+      "claim_sources": [
+        "fmf-sauna"
+      ],
+      "research": [
+        {
+          "text": "KIHD cohort (2,315 men, median 20.7 y): HR for sudden cardiac death 0.37 (95% CI 0.18\u20130.75) for 4\u20137 vs 1 session/week; similar trend for all-cause mortality.",
+          "sources": [
+            "laukkanen-2015"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "In the same cohort, adjusted HR for sudden cardiac death was 0.37 (95% CI 0.18\u20130.75) for 4\u20137 vs 1 session/week; the paper is observational and a published letter raised self-selection bias.",
+          "sources": [
+            "laukkanen-2015"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Accurate as an association; causation unproven (observational)."
+    },
+    {
+      "id": "hc15",
+      "person": "Rhonda Patrick",
+      "topic": "sauna",
+      "claim": "Sauna use extends healthspan / is causally protective.",
+      "wording_status": "paraphrase, unverified wording",
+      "claim_sources": [
+        "patrick-sauna"
+      ],
+      "research": [
+        {
+          "text": "Evidence is largely observational; self-selection bias noted in published commentary.",
+          "sources": [
+            "laukkanen-2015",
+            "caveat-rp"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "extrapolated beyond evidence",
+      "reasoning": "Causal language exceeds cohort evidence."
+    },
+    {
+      "id": "hc16",
+      "person": "Rhonda Patrick",
+      "topic": "omega-3",
+      "claim": "Omega-3 (EPA/DHA) supplementation reduces cardiovascular risk and supports longevity.",
+      "wording_status": "paraphrase, unverified wording",
+      "claim_sources": [
+        "fmf-omega3"
+      ],
+      "research": [
+        {
+          "text": "VITAL found no significant reduction in major CV events with 1 g/day omega-3 in a general population.",
+          "sources": [
+            "vital-2019"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "REDUCE-IT found high-dose icosapent ethyl reduced events in high-risk patients with elevated triglycerides.",
+          "sources": [
+            "reduce-it"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Cochrane: little or no effect on all-cause mortality; small reductions in some CHD outcomes.",
+          "sources": [
+            "cochrane-omega3"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "extrapolated beyond evidence",
+      "reasoning": "Benefit is population- and dose-specific."
+    },
+    {
+      "id": "hc17",
+      "person": "Rhonda Patrick",
+      "topic": "vitamin D",
+      "claim": "Many people are vitamin D deficient and supplementation has broad health benefits.",
+      "wording_status": "paraphrase, unverified wording",
+      "claim_sources": [
+        "fmf-vitd"
+      ],
+      "research": [
+        {
+          "text": "VITAL found vitamin D3 2000 IU/day did not lower invasive cancer or major CV events.",
+          "sources": [
+            "mcmahon-2017"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "extrapolated beyond evidence",
+      "reasoning": "Correcting deficiency is reasonable; broad benefits in replete adults not shown."
+    },
+    {
+      "id": "hc18",
+      "person": "Rhonda Patrick",
+      "topic": "sulforaphane",
+      "claim": "\"Sulforaphane is one that I really like because there's just evidence that sulforaphane is a very powerful activator of the Nrf2 pathway.\"",
+      "wording_status": "verified quote \u2014 Huberman Lab, Dr. Rhonda Patrick 'Micronutrients for Health & Longevity' (no inline timestamps)",
+      "claim_sources": [
+        "hl-rhonda"
+      ],
+      "research": [
+        {
+          "text": "Human trials show biomarker effects (e.g. detoxification of airborne pollutants) but limited hard-outcome data.",
+          "sources": [
+            "sulf-review"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Nrf2 activation is a well-established mechanism with human biomarker evidence; disease-prevention outcomes remain unproven and should not be inferred from this quote."
+    },
+    {
+      "id": "hc19",
+      "person": "Peter Attia (frequent guest)",
+      "topic": "fitness",
+      "claim": "VO2max/cardiorespiratory fitness is among the strongest predictors of mortality; low vs elite fitness is ~5\u00d7 mortality difference.",
+      "wording_status": "paraphrase, unverified wording (show notes summary)",
+      "claim_sources": [
+        "attia-vo2"
+      ],
+      "research": [
+        {
+          "text": "Mandsager et al. (n=122,007) found mortality inversely associated with fitness; elite vs low adjusted HR ~0.20.",
+          "sources": [
+            "mandsager-2018"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Strong, consistent association; observational."
+    },
+    {
+      "id": "hc20",
+      "person": "Peter Attia (frequent guest)",
+      "topic": "exercise",
+      "claim": "Zone 2 training improves mitochondrial function and metabolic health.",
+      "wording_status": "paraphrase, unverified wording \u2014 ATTRIBUTION GAP: specific episode not located (generic index cited)",
+      "claim_sources": [
+        "attia-vo2"
+      ],
+      "research": [
+        {
+          "text": "A 2025 narrative review argues that popular endorsement of Zone 2 as optimal stems largely from observational data on elite endurance athletes, and that it contradicts substantial evidence supporting high-intensity exercise for improving mitochondrial capacity and cardiometabolic health in the general public.",
+          "sources": [
+            "zone2"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "extrapolated beyond evidence",
+      "reasoning": "Zone 2 training improves fitness, but evidence that it is superior to higher intensities for the general public is lacking."
+    },
+    {
+      "id": "hc21",
+      "person": "Peter Attia (frequent guest)",
+      "topic": "lipids",
+      "claim": "\"There is no ambiguity that ApoB is causally related to atherosclerosis.\"",
+      "wording_status": "verified quote \u2014 Huberman Lab, Dr. Peter Attia 'Improve Vitality...' episode (transcript has no inline timestamps)",
+      "claim_sources": [
+        "hl-attia-vit"
+      ],
+      "research": [
+        {
+          "text": "EAS consensus concludes LDL causes ASCVD based on genetic, epidemiological and RCT evidence.",
+          "sources": [
+            "ldl-eas"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Causal role well established; 'how low' for primary prevention is still debated."
+    },
+    {
+      "id": "hc22",
+      "person": "Peter Attia (frequent guest)",
+      "topic": "metformin",
+      "claim": "Metformin may not be advisable as a longevity drug for healthy exercisers.",
+      "wording_status": "paraphrase, unverified wording \u2014 ATTRIBUTION GAP: specific episode not located (generic index cited)",
+      "claim_sources": [
+        "apob-attia"
+      ],
+      "research": [
+        {
+          "text": "MASTERS RCT (n=94, aged 65+): metformin 1,700 mg/day blunted gains in lean and thigh muscle mass during 14 weeks of resistance training vs placebo.",
+          "sources": [
+            "masters-2019"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "TAME trial proposes testing metformin for aging; outcomes not yet reported.",
+          "sources": [
+            "metformin-tame"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Caution consistent with RCT; longevity benefit unknown."
+    },
+    {
+      "id": "hc23",
+      "person": "Peter Attia (frequent guest)",
+      "topic": "rapamycin",
+      "claim": "Rapamycin is a promising geroprotective drug.",
+      "wording_status": "paraphrase, unverified wording \u2014 ATTRIBUTION GAP: specific episode not located (generic index cited)",
+      "claim_sources": [
+        "apob-attia"
+      ],
+      "research": [
+        {
+          "text": "Systematic review found limited human data on aging outcomes; mostly small studies on immune/other endpoints.",
+          "sources": [
+            "rapamycin-review"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "extrapolated beyond evidence",
+      "reasoning": "Animal lifespan data; human evidence sparse."
+    },
+    {
+      "id": "hc24",
+      "person": "Satchin Panda (frequent guest)",
+      "topic": "time-restricted eating",
+      "claim": "Time-restricted eating improves weight and metabolic health beyond calorie restriction.",
+      "wording_status": "paraphrase, unverified wording \u2014 ATTRIBUTION GAP: specific episode not located (generic index cited)",
+      "claim_sources": [
+        "lex-podcast"
+      ],
+      "research": [
+        {
+          "text": "RCT: TRE plus calorie restriction was not more effective than calorie restriction alone for weight loss over 12 months.",
+          "sources": [
+            "tre-rct"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "TREAT RCT: 16:8 TRE produced no significant weight loss vs control.",
+          "sources": [
+            "tre-lowe"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "extrapolated beyond evidence",
+      "reasoning": "Benefits appear mediated by calorie reduction."
+    },
+    {
+      "id": "hc25",
+      "person": "Matthew Walker (frequent guest)",
+      "topic": "sleep",
+      "claim": "Short sleep is associated with higher mortality.",
+      "wording_status": "paraphrase, unverified wording",
+      "claim_sources": [
+        "hl-walker"
+      ],
+      "research": [
+        {
+          "text": "Meta-analysis found short sleep associated with higher all-cause mortality (and long sleep also).",
+          "sources": [
+            "sleep-mort"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Association robust; causation and U-shape caveats."
+    },
+    {
+      "id": "hc26",
+      "person": "Matthew Walker (frequent guest)",
+      "topic": "sleep",
+      "claim": "'Why We Sleep' claims (e.g. sleep loss epidemic statements) are fully accurate.",
+      "wording_status": "paraphrase, unverified wording",
+      "claim_sources": [
+        "guzey"
+      ],
+      "research": [
+        {
+          "text": "An independent critique documented multiple factual and data-presentation errors in the book.",
+          "sources": [
+            "guzey"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "extrapolated beyond evidence",
+      "reasoning": "Several specific claims overstated; others sound. Rate claim-by-claim before publishing."
+    },
+    {
+      "id": "hc27",
+      "person": "Andrew Huberman / guests",
+      "topic": "creatine",
+      "claim": "Creatine supports cognition as well as muscle.",
+      "wording_status": "paraphrase, unverified wording \u2014 ATTRIBUTION GAP: no episode located yet",
+      "claim_sources": [],
+      "research": [
+        {
+          "text": "ISSN: creatine is effective and safe for muscle performance.",
+          "sources": [
+            "issn-creatine"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "Meta-analysis found a small memory benefit, larger in older adults.",
+          "sources": [
+            "creatine-cog"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Muscle strongly; cognition modest."
+    },
+    {
+      "id": "hc28",
+      "person": "Andrew Huberman / guests",
+      "topic": "protein",
+      "claim": "Higher protein intake (~1.6 g/kg/day) supports muscle gains with resistance training.",
+      "wording_status": "paraphrase, unverified wording \u2014 ATTRIBUTION GAP: no episode located yet",
+      "claim_sources": [],
+      "research": [
+        {
+          "text": "Meta-analysis found gains plateau around 1.6 g/kg/day.",
+          "sources": [
+            "protein-morton"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Direct SR/MA."
+    },
+    {
+      "id": "hc29",
+      "person": "Peter Attia / Rhonda Patrick",
+      "topic": "strength",
+      "claim": "Resistance training lowers mortality.",
+      "wording_status": "paraphrase, unverified wording \u2014 ATTRIBUTION GAP: specific episode not located (generic index cited)",
+      "claim_sources": [
+        "attia-vo2"
+      ],
+      "research": [
+        {
+          "text": "Meta-analysis found muscle-strengthening activity associated with 10\u201317% lower mortality.",
+          "sources": [
+            "strength-mort"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Observational; J-shape at high volumes."
+    },
+    {
+      "id": "hc30",
+      "person": "Huberman/Attia guests",
+      "topic": "steps",
+      "claim": "More daily steps reduce mortality, with benefit plateauing.",
+      "wording_status": "paraphrase, unverified wording \u2014 ATTRIBUTION GAP: specific episode not located (generic index cited)",
+      "claim_sources": [
+        "lex-podcast"
+      ],
+      "research": [
+        {
+          "text": "Meta-analysis of 15 cohorts: more steps associated with lower mortality, plateau ~6\u20138k (\u226560 y) and 8\u201310k (<60 y).",
+          "sources": [
+            "steps-paluch"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Observational."
+    },
+    {
+      "id": "hc31",
+      "person": "Various guests",
+      "topic": "seed oils",
+      "claim": "Seed oils (omega-6 linoleic acid) are a major driver of chronic disease.",
+      "wording_status": "paraphrase, unverified wording \u2014 ATTRIBUTION GAP: specific episode not located (generic index cited)",
+      "claim_sources": [
+        "lex-podcast"
+      ],
+      "research": [
+        {
+          "text": "Cohort meta-analysis found higher linoleic acid intake associated with lower CHD risk.",
+          "sources": [
+            "seed-oils"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "unsupported",
+      "reasoning": "Current evidence points the other way."
+    },
+    {
+      "id": "hc32",
+      "person": "Various guests",
+      "topic": "ultra-processed food",
+      "claim": "Ultra-processed foods drive overeating.",
+      "wording_status": "paraphrase, unverified wording \u2014 ATTRIBUTION GAP: specific episode not located (generic index cited)",
+      "claim_sources": [
+        "lex-podcast"
+      ],
+      "research": [
+        {
+          "text": "Inpatient RCT: ultra-processed diet led to ~500 kcal/day greater intake and weight gain.",
+          "sources": [
+            "eat-late"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Single small but rigorous RCT; mechanism unclear."
+    },
+    {
+      "id": "hc34",
+      "person": "Various guests",
+      "topic": "psilocybin",
+      "claim": "Psilocybin can treat treatment-resistant depression.",
+      "wording_status": "paraphrase, unverified wording \u2014 ATTRIBUTION GAP: specific episode not located (generic index cited)",
+      "claim_sources": [
+        "lex-podcast"
+      ],
+      "research": [
+        {
+          "text": "Phase 2b RCT showed short-term benefit of 25 mg vs 1 mg.",
+          "sources": [
+            "goodwin-2022"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Short-term, supervised trials only; not approved."
+    },
+    {
+      "id": "hc36",
+      "person": "Various guests",
+      "topic": "NMN/NAD",
+      "claim": "NMN/NR supplements reverse aging.",
+      "wording_status": "paraphrase, unverified wording \u2014 ATTRIBUTION GAP: specific episode not located (generic index cited)",
+      "claim_sources": [
+        "nmn-review"
+      ],
+      "research": [
+        {
+          "text": "SR/MA of 12 RCTs (513 participants): NMN raised blood NAD levels, but most clinical metabolic outcomes didn't differ from control; the authors suggest benefits may be exaggerated.",
+          "sources": [
+            "nmn-review"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "unsupported",
+      "reasoning": "Biomarker change without clinical-outcome benefit in RCTs; no human evidence for reversing ageing."
+    },
+    {
+      "id": "hc37",
+      "person": "Peter Attia (frequent guest)",
+      "topic": "lipids",
+      "claim": "\"If your objective is to not die from heart disease and only to die with it, then you want ApoB as low as possible.\"",
+      "wording_status": "verified quote \u2014 Huberman Lab, Attia 'Improve Vitality...' (transcript has no inline timestamps)",
+      "claim_sources": [
+        "hl-attia-vit"
+      ],
+      "research": [
+        {
+          "text": "EAS consensus: LDL causes ASCVD, with risk proportional to cumulative exposure.",
+          "sources": [
+            "ldl-eas"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "extrapolated beyond evidence",
+      "reasoning": "The causal link is established, but 'as low as possible' across a lifetime goes beyond tested ranges and populations."
+    },
+    {
+      "id": "hc38",
+      "person": "Rhonda Patrick",
+      "topic": "sulforaphane",
+      "claim": "\"...broccoli sprouts, which have up to a hundred times more sulforaphane than broccoli...\"",
+      "wording_status": "verified quote (excerpt) \u2014 Huberman Lab, Rhonda Patrick micronutrients episode (transcript has no inline timestamps)",
+      "claim_sources": [
+        "hl-rhonda"
+      ],
+      "research": [
+        {
+          "text": "3-day-old broccoli sprouts contained 10\u2013100 times higher glucoraphanin (sulforaphane's precursor) than mature plants.",
+          "sources": [
+            "fahey-1997"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "It matches the upper bound reported; strictly, the study measured the glucoraphanin precursor."
+    },
+    {
+      "id": "hc39",
+      "person": "Rhonda Patrick",
+      "topic": "sauna",
+      "claim": "\"...there's studies showing that sauna use is associated with a much lower risk of dementia and Alzheimer's disease.\"",
+      "wording_status": "verified quote (excerpt) \u2014 Huberman Lab, Rhonda Patrick micronutrients episode (transcript has no inline timestamps)",
+      "claim_sources": [
+        "hl-rhonda"
+      ],
+      "research": [
+        {
+          "text": "KIHD cohort (2,315 men, ~20.7 y follow-up): adjusted HR for dementia 0.34 for 4\u20137 vs 1 sauna session/week.",
+          "sources": [
+            "laukkanen-2016"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Accurate as an association in one Finnish male cohort; causation not shown."
+    },
+    {
+      "id": "hc40",
+      "person": "David Sinclair (frequent guest)",
+      "topic": "resveratrol",
+      "claim": "\"The mice that we've given resveratrol every second day on a normal diet live dramatically longer than any other group.\"",
+      "wording_status": "verified quote \u2014 Huberman Lab, David Sinclair 'Biology of Slowing & Reversing Aging' (transcript has no inline timestamps)",
+      "claim_sources": [
+        "hl-sinclair"
+      ],
+      "research": [
+        {
+          "text": "Sinclair's group's published study showed resveratrol increased survival of mice on a high-calorie diet.",
+          "sources": [
+            "baur-2006"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "The NIA Interventions Testing Program found resveratrol had no significant effect on lifespan in genetically heterogeneous mice.",
+          "sources": [
+            "strong-2013"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "unsupported",
+      "reasoning": "No published normal-diet lifespan extension was located, and the multi-site NIA test was null. The claim may refer to unpublished data."
+    },
+    {
+      "id": "hc41",
+      "person": "David Sinclair (frequent guest)",
+      "topic": "fasting",
+      "claim": "\"Well, if there's one thing I could say, I would say definitely try to skip a meal a day.\"",
+      "wording_status": "verified quote \u2014 Huberman Lab, Sinclair episode (transcript has no inline timestamps)",
+      "claim_sources": [
+        "hl-sinclair"
+      ],
+      "research": [
+        {
+          "text": "12-month RCT: time-restricted eating plus calorie restriction was not more effective than calorie restriction alone for weight loss.",
+          "sources": [
+            "tre-rct"
+          ],
+          "type": "evidence"
+        },
+        {
+          "text": "TREAT RCT: 16:8 eating produced no significant weight loss vs control.",
+          "sources": [
+            "tre-lowe"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "extrapolated beyond evidence",
+      "reasoning": "Meal-skipping benefits appear explained by calorie reduction; no outcome trials show added longevity benefit."
+    },
+    {
+      "id": "hc42",
+      "person": "Robert Lustig (frequent guest)",
+      "topic": "nutrition",
+      "claim": "\"They tell you a calorie is a calorie, which is not true...\"",
+      "wording_status": "verified quote (excerpt) \u2014 Huberman Lab, Lustig episode (transcript has no inline timestamps)",
+      "claim_sources": [
+        "hl-lustig"
+      ],
+      "research": [
+        {
+          "text": "Inpatient RCT: an ultra-processed diet led to greater ad libitum calorie intake and weight gain vs an unprocessed diet.",
+          "sources": [
+            "eat-late"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "extrapolated beyond evidence",
+      "reasoning": "Food type affects intake and appetite, but energy accounting itself holds; the claim conflates intake behaviour with thermodynamics."
+    },
+    {
+      "id": "hc43",
+      "person": "Robert Lustig (frequent guest)",
+      "topic": "sugar",
+      "claim": "\"...73% of the items in the grocery store are spiked with sugar...\"",
+      "wording_status": "verified quote (excerpt) \u2014 Huberman Lab, Lustig episode (transcript has no inline timestamps)",
+      "claim_sources": [
+        "hl-lustig"
+      ],
+      "research": [
+        {
+          "text": "Of 85,451 uniquely formulated US packaged foods purchased 2005\u20132009, 75% contained sweeteners (68% caloric only, 6% both caloric and noncaloric).",
+          "sources": [
+            "ng-2012"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Close to the published figure (~74% with caloric sweeteners), but it applies to packaged foods, not all grocery items."
+    },
+    {
+      "id": "hc44",
+      "person": "Anna Lembke (frequent guest)",
+      "topic": "addiction",
+      "claim": "\"And 30 days is, in my clinical experience, the average amount of time it takes for the brain to reset reward pathways, for dopamine transmission to regenerate itself.\"",
+      "wording_status": "verified quote \u2014 Huberman Lab, Lembke episode (transcript has no inline timestamps)",
+      "claim_sources": [
+        "hl-lembke"
+      ],
+      "research": [
+        {
+          "text": "PET imaging in 5 methamphetamine users found dopamine transporter levels increased substantially only with protracted abstinence (12\u201317 months).",
+          "sources": [
+            "volkow-2001"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "extrapolated beyond evidence",
+      "reasoning": "Explicitly framed as clinical experience. The imaging evidence suggests dopamine-system recovery can take much longer, at least for methamphetamine."
+    },
+    {
+      "id": "hc45",
+      "person": "Anna Lembke (frequent guest)",
+      "topic": "addiction/depression",
+      "claim": "\"And after four weeks, 80% of them no longer met criteria for major depression.\"",
+      "wording_status": "verified quote \u2014 Huberman Lab, Lembke episode (transcript has no inline timestamps); the study referred to is inferred",
+      "claim_sources": [
+        "hl-lembke"
+      ],
+      "research": [
+        {
+          "text": "Among 191 male inpatient alcoholics, 42% had clinically significant depression at intake but only 6% at week 4 of abstinence.",
+          "sources": [
+            "brown-1988"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "supported",
+      "reasoning": "Consistent with the classic Brown & Schuckit finding (~86% relative fall), assuming this is the study meant."
+    },
+    {
+      "id": "hc46",
+      "person": "Andrew Huberman",
+      "topic": "caffeine",
+      "claim": "\"For people that crash in the afternoon, oftentimes, if they delay their caffeine by 60 and 90 minutes in the morning, they will offset some of that.\"",
+      "wording_status": "verified quote \u2014 Lex Fridman Podcast #435, 00:38:38",
+      "claim_sources": [
+        "lex-435"
+      ],
+      "research": [
+        {
+          "text": "A 2024 review found no physiological basis for the claim that delaying caffeine prevents an afternoon crash.",
+          "sources": [
+            "caff-review"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "unsupported",
+      "reasoning": "No trial tests this, and the proposed mechanism isn't supported."
+    },
+    {
+      "id": "hc47",
+      "person": "Andrew Huberman",
+      "topic": "light",
+      "claim": "\"This is always what I'm telling people to get sunlight in their eyes in the morning and in the evening.\"",
+      "wording_status": "verified quote \u2014 Lex Fridman Podcast #435, 01:15:41",
+      "claim_sources": [
+        "lex-435"
+      ],
+      "research": [
+        {
+          "text": "Light's effect on circadian phase depends on timing (phase response curve).",
+          "sources": [
+            "khalsa-2003"
+          ],
+          "type": "evidence"
+        }
+      ],
+      "rating": "extrapolated beyond evidence",
+      "reasoning": "Morning light for circadian entrainment is well supported. A specific benefit from evening sunlight viewing hasn't been directly tested."
+    }
+  ],
+  "verified": "2026-10-22",
+  "timeline": [
+    {
+      "date": "2000",
+      "event": "\u0160r\u00e1mek et al. cold-immersion study (plasma dopamine +250%).",
+      "sources": [
+        "sramek-2000"
+      ]
+    },
+    {
+      "date": "2001",
+      "event": "Volkow: dopamine transporter recovery with protracted abstinence.",
+      "sources": [
+        "volkow-2001"
+      ]
+    },
+    {
+      "date": "2006",
+      "event": "Baur et al.: resveratrol and survival of high-calorie-fed mice.",
+      "sources": [
+        "baur-2006"
+      ]
+    },
+    {
+      "date": "2013",
+      "event": "NIA ITP finds no lifespan effect of resveratrol.",
+      "sources": [
+        "strong-2013"
+      ]
+    },
+    {
+      "date": "2015",
+      "event": "Laukkanen sauna\u2013mortality cohort (JAMA IM); Roberts cold-water immersion RCT.",
+      "sources": [
+        "laukkanen-2015",
+        "roberts-2015"
+      ]
+    },
+    {
+      "date": "2018",
+      "event": "Mandsager fitness\u2013mortality cohort.",
+      "sources": [
+        "mandsager-2018"
+      ]
+    },
+    {
+      "date": "2019",
+      "event": "VITAL omega-3/vitamin D trials; Hall ultra-processed RCT; Guzey critique of Why We Sleep.",
+      "sources": [
+        "vital-2019",
+        "mcmahon-2017",
+        "eat-late",
+        "guzey"
+      ]
+    },
+    {
+      "date": "2022",
+      "event": "Huberman Lab cold-exposure episode; Liu TRE RCT.",
+      "sources": [
+        "hl-cold",
+        "tre-rct"
+      ]
+    },
+    {
+      "date": "2023",
+      "event": "WHO Europe: no safe level of alcohol.",
+      "sources": [
+        "who-alcohol"
+      ]
+    },
+    {
+      "date": "2024",
+      "event": "Caffeine misconceptions review; NMN meta-analysis; Lex Fridman #435 with Huberman.",
+      "sources": [
+        "caff-review",
+        "nmn-review",
+        "lex-435"
+      ]
+    },
+    {
+      "date": "2025",
+      "event": "Zone 2 narrative review challenges broad endorsement.",
+      "sources": [
+        "zone2"
+      ]
+    }
+  ],
+  "further_reading": [
+    {
+      "source": "caff-review",
+      "why": "Evidence review of popular caffeine claims"
+    },
+    {
+      "source": "laukkanen-2015",
+      "why": "Primary sauna cohort"
+    },
+    {
+      "source": "mandsager-2018",
+      "why": "Fitness and mortality"
+    },
+    {
+      "source": "cochrane-omega3",
+      "why": "Best summary for omega-3 supplements"
+    },
+    {
+      "source": "ldl-eas",
+      "why": "Causality of LDL/apoB"
+    },
+    {
+      "source": "zone2",
+      "why": "Critical look at Zone 2"
+    },
+    {
+      "source": "guzey",
+      "why": "Detailed critique of a popular sleep book"
+    },
+    {
+      "source": "strong-2013",
+      "why": "How rigorous mouse longevity testing works"
+    },
+    {
+      "source": "nmn-review",
+      "why": "NMN evidence in humans"
+    }
+  ]
+}

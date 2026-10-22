@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/LewisAGI/health-claims/data/content.schema.json",
+  "title": "Health claims content pack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["pack", "version", "generated", "verified", "rating_scale", "policy", "claims", "timeline", "further_reading"],
+  "properties": {
+    "pack": { "const": "health-claims" },
+    "version": { "type": "integer", "minimum": 1 },
+    "generated": { "type": "string", "minLength": 10 },
+    "verified": { "type": "string", "minLength": 10, "description": "Date the pack was checked. Per-claim verified wording lives on wording_status." },
+    "rating_scale": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "policy": { "type": "string", "minLength": 1 },
+    "claims": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/claim" }
+    },
+    "timeline": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/timelineEvent" }
+    },
+    "further_reading": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/furtherReading" }
+    }
+  },
+  "$defs": {
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "person", "topic", "claim", "wording_status", "claim_sources", "research", "rating", "reasoning"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^hc[0-9]{2}$" },
+        "person": { "type": "string", "minLength": 1 },
+        "topic": { "type": "string", "minLength": 1 },
+        "claim": { "type": "string", "minLength": 1 },
+        "wording_status": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Verified wording starts with 'verified quote' or 'verified wording'. Anything else is a paraphrase. An attribution gap means no episode was found."
+        },
+        "claim_sources": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "research": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/research" }
+        },
+        "rating": {
+          "type": "string",
+          "enum": ["supported", "extrapolated beyond evidence", "unsupported"]
+        },
+        "reasoning": { "type": "string", "minLength": 1 }
+      }
+    },
+    "research": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "sources", "type"],
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "type": { "enum": ["evidence", "uncertain"] }
+      }
+    },
+    "timelineEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["date", "event", "sources"],
+      "properties": {
+        "date": { "type": "string", "pattern": "^[0-9]{4}$" },
+        "event": { "type": "string", "minLength": 1 },
+        "sources": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "furtherReading": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source", "why"],
+      "properties": {
+        "source": { "type": "string", "minLength": 1 },
+        "why": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

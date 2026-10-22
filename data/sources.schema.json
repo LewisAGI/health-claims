@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/LewisAGI/health-claims/data/sources.schema.json",
+  "title": "Health claims sources",
+  "type": "array",
+  "minItems": 1,
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["id", "title", "authors", "url", "year", "quality"],
+    "properties": {
+      "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+      "title": { "type": "string", "minLength": 1 },
+      "authors": { "type": "string", "minLength": 1 },
+      "url": { "type": "string", "pattern": "^https?://" },
+      "year": {
+        "type": ["integer", "null"],
+        "minimum": 1900,
+        "maximum": 2100,
+        "description": "Null when the pack has no publication year for the source."
+      },
+      "quality": { "type": "string", "minLength": 1 }
+    }
+  }
+}
