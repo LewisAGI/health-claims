@@ -42,9 +42,14 @@ export function stripQuoteMarks(text: string): string {
     .trim();
 }
 
+/** The pack says this claim's exact wording was not found, so the note after the dash is not an episode. */
+function wordingNotFound(claim: Pick<Claim, 'wording_status'>): boolean {
+  return /exact claim wording not (?:found|verified)\b/i.test(claim.wording_status);
+}
+
 /** A located episode or page sits after the em dash. Otherwise the episode is unknown. */
 export function episodeLabel(claim: Pick<Claim, 'wording_status'>): string {
-  if (isAttributionGap(claim)) return 'unknown';
+  if (isAttributionGap(claim) || wordingNotFound(claim)) return 'unknown';
   const parts = claim.wording_status.split(/\s—\s/);
   if (parts.length < 2) return 'unknown';
   const located = stripQuoteMarks(parts.slice(1).join(' — '));

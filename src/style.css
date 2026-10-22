@@ -49,13 +49,29 @@ body {
 
 .stage {
   position: absolute;
-  inset: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: calc(32px + env(safe-area-inset-bottom));
   overflow: auto;
   padding:
     calc(58px + env(safe-area-inset-top))
     calc(72px + env(safe-area-inset-right))
-    calc(24px + env(safe-area-inset-bottom))
+    16px
     calc(72px + env(safe-area-inset-left));
+}
+
+.shell-notice {
+  position: absolute;
+  z-index: 4;
+  left: calc(64px + env(safe-area-inset-left));
+  right: calc(64px + env(safe-area-inset-right));
+  bottom: calc(8px + env(safe-area-inset-bottom));
+  margin: 0;
+  text-align: center;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.3;
 }
 
 .people, .claims, .page {
@@ -125,7 +141,7 @@ body {
   font: 600 20px/1.35 var(--serif);
 }
 
-.claim-aside, .reasoning, .research-text, .page p, .scale-copy {
+.claim-aside, .reasoning, .research-text, .page p {
   color: var(--muted);
 }
 
@@ -180,11 +196,9 @@ body {
 .scale li {
   display: flex;
   gap: 12px;
-  align-items: flex-start;
+  align-items: center;
   margin: 0 0 14px;
 }
-
-.scale-copy { display: block; margin-top: 2px; }
 
 .timeline {
   margin-left: 8px;

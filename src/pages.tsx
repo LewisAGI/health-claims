@@ -15,17 +15,13 @@ export function Methodology() {
         {RATING_SCALE.map((item) => (
           <li key={item.id}>
             <span className="swatch" data-rating={item.id} />
-            <span>
-              <span className="rating-name">{item.label}</span>
-              <span className="scale-copy">{item.definition}</span>
-            </span>
+            <span className="rating-name">{item.label}</span>
           </li>
         ))}
       </ul>
       <p>{COPY.provisionalRule}</p>
       <p>{COPY.wordingRule}</p>
       <p>{COPY.gapRule}</p>
-      <p>{COPY.notAdvice}</p>
       <p className="checked">
         Pack {content.version}, checked {content.verified}.
       </p>
@@ -86,7 +82,6 @@ export function Corrections() {
         </a>
       </p>
       <p>{COPY.correctionsHow}</p>
-      <p>{COPY.notAdvice}</p>
     </article>
   );
 }

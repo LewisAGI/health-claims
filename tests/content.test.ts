@@ -43,6 +43,7 @@ describe('content pack', () => {
     });
     expect(claimSchema.properties.rating.enum).toEqual([...content.rating_scale]);
     expect(RATING_SCALE.map((item) => item.id)).toEqual(content.rating_scale);
+    expect(RATING_SCALE.map((item) => item.label)).toEqual(content.rating_scale);
   });
 
   it('resolves every citation, including the timeline and further reading', () => {
@@ -98,7 +99,7 @@ describe('content pack', () => {
 
   it('keeps our own wording neutral', () => {
     const banned = /liar|fraud|quack|scam|grifter|charlatan|dishonest|incompetent|snake oil/i;
-    const ours = [...Object.values(COPY), ...RATING_SCALE.flatMap((item) => [item.label, item.definition])].join('\n');
+    const ours = [...Object.values(COPY), ...RATING_SCALE.map((item) => item.label)].join('\n');
     expect(ours).not.toMatch(banned);
   });
 

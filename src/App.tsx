@@ -109,6 +109,7 @@ export function App() {
           {COPY.siteTitle}
         </a>
       )}
+      <footer className="shell-notice">{COPY.notAdvice}</footer>
       <main className="stage">
         {route.name === 'list' ? <PersonList people={visiblePeople} filters={filters} /> : null}
         {route.name === 'person' && activePerson ? (

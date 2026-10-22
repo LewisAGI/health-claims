@@ -12,6 +12,8 @@ test('lists people and does not rate them', async ({ page }) => {
   await expect(page.getByRole('link', { name: 'David Sinclair (frequent guest)' })).toBeVisible();
   await expect(page.getByRole('link', { name: 'Anna Lembke (frequent guest)' })).toBeVisible();
   await expect(page.locator('.stage')).not.toContainText(/click|tap the|try a filter/i);
+  await expect(page.locator('.shell-notice')).toHaveText('This is not medical advice.');
+  await expect(page.locator('.shell-notice')).toBeVisible();
 });
 
 test('filters from icon pop-outs', async ({ page }) => {
@@ -25,7 +27,7 @@ test('filters from icon pop-outs', async ({ page }) => {
   await expect(page.getByRole('link', { name: 'Andrew Huberman', exact: true })).toBeVisible();
   await expect(page.getByRole('link', { name: 'Rhonda Patrick', exact: true })).toHaveCount(0);
   await page.getByRole('button', { name: 'Rating' }).click();
-  await page.getByRole('button', { name: 'Unsupported' }).click();
+  await page.getByRole('button', { name: 'unsupported', exact: true }).click();
   await expect(page.getByRole('link', { name: 'Andrew Huberman', exact: true })).toBeVisible();
 });
 
@@ -51,6 +53,12 @@ test('quotes verified wording and labels every other claim as a paraphrase', asy
   await expect(gap.locator('.episode-value')).toHaveText('unknown');
   await expect(gap.locator('h2', { hasText: 'Source' })).toHaveCount(0);
 
+  await expect(page.locator('[data-claim="hc09"] .episode-value')).toHaveText('unknown');
+  await expect(page.locator('[data-claim="hc10"] .episode-value')).toHaveText('unknown');
+  await expect(page.locator('[data-claim="hc13"] .episode-value')).toHaveText('unknown');
+  await expect(page.locator('.shell-notice')).toHaveText('This is not medical advice.');
+  await expect(page.locator('.shell-notice')).toBeVisible();
+
   await page.goto('/#/person/various-guests');
   const hc36 = page.locator('[data-claim="hc36"]');
   await expect(hc36).toHaveAttribute('data-wording', 'paraphrase');
@@ -75,11 +83,18 @@ test('opens the timeline and further reading', async ({ page }) => {
 test('methodology and corrections stay claim-level', async ({ page }) => {
   await page.getByRole('link', { name: 'Methodology' }).click();
   await expect(page.getByRole('heading', { name: 'Methodology' })).toBeVisible();
-  await expect(page.getByText('Supported', { exact: true })).toBeVisible();
-  await expect(page.getByText('Extrapolated beyond evidence')).toBeVisible();
-  await expect(page.getByText('Unsupported', { exact: true })).toBeVisible();
+  await expect(page.locator('.scale .rating-name')).toHaveText([
+    'supported',
+    'extrapolated beyond evidence',
+    'unsupported',
+  ]);
+  await expect(page.locator('.scale-copy')).toHaveCount(0);
+  await expect(page.getByText(/agrees with what the listed research/)).toHaveCount(0);
+  await expect(page.getByText('Quotes only when the pack marks the wording verified. Other claims are paraphrases.')).toBeVisible();
   await expect(page.getByText(/shown as unknown/)).toBeVisible();
+  await expect(page.getByText('Provisional only when the pack flags it. This pack does not.')).toBeVisible();
   await expect(page.getByText(/not a rating of a person/)).toBeVisible();
+  await expect(page.locator('.shell-notice')).toBeVisible();
 
   await page.getByRole('link', { name: 'Corrections' }).click();
   await expect(page.getByRole('link', { name: 'LewisAGI/health-claims issues' })).toHaveAttribute(

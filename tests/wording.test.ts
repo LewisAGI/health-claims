@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { content } from '../src/data';
-import { isVerifiedWording, stripQuoteMarks, viewClaim } from '../src/wording';
+import { episodeLabel, isVerifiedWording, stripQuoteMarks, viewClaim } from '../src/wording';
 
 const QUOTE_IDS = [
   'hc01',
@@ -73,8 +73,11 @@ describe('episode', () => {
       'hc03',
       'hc06',
       'hc08',
+      'hc09',
+      'hc10',
       'hc11',
       'hc12',
+      'hc13',
       'hc15',
       'hc16',
       'hc17',
@@ -99,6 +102,16 @@ describe('episode', () => {
       expect(episode.length, claim.id).toBeGreaterThan(0);
       expect(episode, claim.id).not.toMatch(/["“”‘’]/);
       if (episode !== 'unknown') expect(episode).not.toMatch(/(^|\s)'|'(\s|$)/);
+    }
+  });
+
+  it('shows unknown when the pack says the exact wording was not found', () => {
+    for (const id of ['hc09', 'hc10', 'hc13']) {
+      const claim = content.claims.find((item) => item.id === id);
+      expect(claim, id).toBeTruthy();
+      expect(claim!.wording_status).toMatch(/exact claim wording not (?:found|verified)/i);
+      expect(episodeLabel(claim!), id).toBe('unknown');
+      expect(viewClaim(claim!).episode, id).toBe('unknown');
     }
   });
 });
