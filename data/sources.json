@@ -1,0 +1,538 @@
+[
+  {
+    "id": "hl-walker",
+    "title": "Dr. Matt Walker: The Science & Practice of Perfecting Your Sleep (episode transcript)",
+    "authors": "Huberman Lab",
+    "url": "https://www.hubermanlab.com/episode/dr-matthew-walker-the-science-and-practice-of-perfecting-your-sleep",
+    "year": 2024,
+    "quality": "Primary transcript; verifies wording"
+  },
+  {
+    "id": "hl-cold",
+    "title": "Using Deliberate Cold Exposure for Health and Performance (Huberman Lab, 4 Apr 2022)",
+    "authors": "Huberman Lab",
+    "url": "https://www.hubermanlab.com/episode/using-deliberate-cold-exposure-for-health-and-performance",
+    "year": 2022,
+    "quality": "Primary transcript; quotes verified"
+  },
+  {
+    "id": "sramek-2000",
+    "title": "Human physiological responses to immersion into water of different temperatures (Eur J Appl Physiol 81:436-442)",
+    "authors": "\u0160r\u00e1mek P, \u0160ime\u010dkov\u00e1 M, Jansk\u00fd L, \u0160avl\u00edkov\u00e1 J, Vyb\u00edral S",
+    "url": "https://doi.org/10.1007/s004210050065",
+    "year": 2000,
+    "quality": "Small experiment n=10; plasma measures"
+  },
+  {
+    "id": "claimgrade-cold",
+    "title": "Cold plunge & the '250% dopamine' claim: review",
+    "authors": "ClaimGrade",
+    "url": "https://claimgrade.org/reviews/cold-plunge/report",
+    "year": 2025,
+    "quality": "Secondary fact-check; context only"
+  },
+  {
+    "id": "caff-review",
+    "title": "Common questions and misconceptions about caffeine supplementation (J Int Soc Sports Nutr 21:2323919)",
+    "authors": "Antonio J et al.",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10930107/",
+    "year": 2024,
+    "quality": "Narrative review; moderate"
+  },
+  {
+    "id": "laukkanen-2015",
+    "title": "Association Between Sauna Bathing and Fatal Cardiovascular and All-Cause Mortality Events (JAMA Intern Med 175:542-548)",
+    "authors": "Laukkanen T, Khan H, Zaccardi F, Laukkanen JA",
+    "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2130724",
+    "year": 2015,
+    "quality": "Prospective cohort n=2315 men; observational"
+  },
+  {
+    "id": "patrick-sauna",
+    "title": "Sauna use as a lifestyle practice to extend healthspan (Exp Gerontol 154:111509)",
+    "authors": "Patrick RP, Johnson TL",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0531556521002916",
+    "year": 2021,
+    "quality": "Narrative review co-authored by the claimant; note COI"
+  },
+  {
+    "id": "mandsager-2018",
+    "title": "Association of Cardiorespiratory Fitness With Long-term Mortality Among Adults Undergoing Exercise Treadmill Testing (JAMA Netw Open 1:e183605)",
+    "authors": "Mandsager K, Harb S, Cremer P, et al.",
+    "url": "https://doi.org/10.1001/jamanetworkopen.2018.3605",
+    "year": 2018,
+    "quality": "Retrospective cohort n=122,007; observational"
+  },
+  {
+    "id": "attia-vo2",
+    "title": "How does VO2 max correlate with longevity? (AMA #27 show notes)",
+    "authors": "Attia P",
+    "url": "https://peterattiamd.com/how-does-vo2-max-correlate-with-longevity/",
+    "year": 2022,
+    "quality": "Primary claimant page"
+  },
+  {
+    "id": "magellan-hub",
+    "title": "Andrew Huberman's Longevity Claims, Checked Against the Papers",
+    "authors": "Magellan Longevity",
+    "url": "https://magellanlongevity.com/claims/andrew-huberman/",
+    "year": 2025,
+    "quality": "Secondary fact-check; context"
+  },
+  {
+    "id": "roberts-2015",
+    "title": "Post-exercise cold water immersion attenuates acute anabolic signalling and long-term adaptations in muscle to strength training (J Physiol 593:4285-4301)",
+    "authors": "Roberts LA et al.",
+    "url": "https://doi.org/10.1113/JP270570",
+    "year": 2015,
+    "quality": "RCT; moderate"
+  },
+  {
+    "id": "gbd-2018",
+    "title": "Alcohol use and burden for 195 countries and territories, 1990-2016 (Lancet 392:1015-1035)",
+    "authors": "GBD 2016 Alcohol Collaborators",
+    "url": "https://doi.org/10.1016/S0140-6736(18)31310-2",
+    "year": 2018,
+    "quality": "Large modelling study; high-profile, debated"
+  },
+  {
+    "id": "who-alcohol",
+    "title": "No level of alcohol consumption is safe for our health (WHO Europe statement)",
+    "authors": "WHO Regional Office for Europe",
+    "url": "https://www.who.int/europe/news/item/04-01-2023-no-level-of-alcohol-consumption-is-safe-for-our-health",
+    "year": 2023,
+    "quality": "Health agency; high"
+  },
+  {
+    "id": "hl-alcohol",
+    "title": "What Alcohol Does to Your Body, Brain & Health (Huberman Lab, Aug 2022)",
+    "authors": "Huberman Lab",
+    "url": "https://www.hubermanlab.com/episode/what-alcohol-does-to-your-body-brain-health",
+    "year": 2022,
+    "quality": "Primary episode page"
+  },
+  {
+    "id": "guzey",
+    "title": "Matthew Walker's 'Why We Sleep' Is Riddled with Scientific and Factual Errors",
+    "authors": "Guzey A",
+    "url": "https://guzey.com/books/why-we-sleep/",
+    "year": 2019,
+    "quality": "Independent critique; detailed, not peer-reviewed"
+  },
+  {
+    "id": "hl-light",
+    "title": "Using Light (Sunlight, Blue Light & Red Light) to Optimize Health (episode transcript)",
+    "authors": "Huberman Lab",
+    "url": "https://www.hubermanlab.com/episode/using-light-sunlight-blue-light-and-red-light-to-optimize-health",
+    "year": 2022,
+    "quality": "Primary transcript"
+  },
+  {
+    "id": "leproult-2001",
+    "title": "Transition from dim to bright light in the morning induces an immediate elevation of cortisol levels (J Clin Endocrinol Metab 86:151-157)",
+    "authors": "Leproult R, Colecchia EF, L'Hermite-Bal\u00e9riaux M, Van Cauter E",
+    "url": "https://doi.org/10.1210/jcem.86.1.7102",
+    "year": 2001,
+    "quality": "Small lab study; moderate"
+  },
+  {
+    "id": "khalsa-2003",
+    "title": "A phase response curve to single bright light pulses in human subjects (J Physiol 549:945-952)",
+    "authors": "Khalsa SBS et al.",
+    "url": "https://doi.org/10.1113/jphysiol.2003.040477",
+    "year": 2003,
+    "quality": "Controlled lab; high for circadian phase shifting"
+  },
+  {
+    "id": "vital-2019",
+    "title": "Marine n-3 fatty acids and prevention of cardiovascular disease and cancer (VITAL, NEJM 380:23-32)",
+    "authors": "Manson JE et al.",
+    "url": "https://doi.org/10.1056/NEJMoa1811403",
+    "year": 2019,
+    "quality": "Large RCT; high"
+  },
+  {
+    "id": "reduce-it",
+    "title": "Cardiovascular Risk Reduction with Icosapent Ethyl for Hypertriglyceridemia (REDUCE-IT, NEJM 380:11-22)",
+    "authors": "Bhatt DL et al.",
+    "url": "https://doi.org/10.1056/NEJMoa1812792",
+    "year": 2019,
+    "quality": "Large RCT; high; mineral-oil placebo debate"
+  },
+  {
+    "id": "cochrane-omega3",
+    "title": "Omega-3 fatty acids for the primary and secondary prevention of cardiovascular disease (Cochrane)",
+    "authors": "Abdelhamid AS et al.",
+    "url": "https://doi.org/10.1002/14651858.CD003177.pub5",
+    "year": 2020,
+    "quality": "Systematic review; high"
+  },
+  {
+    "id": "fmf-omega3",
+    "title": "Omega-3 fatty acids topic page",
+    "authors": "FoundMyFitness (Rhonda Patrick)",
+    "url": "https://www.foundmyfitness.com/topics/omega-3",
+    "year": 2024,
+    "quality": "Primary claimant page"
+  },
+  {
+    "id": "mcmahon-2017",
+    "title": "Meta-analysis of the association between vitamin D and mortality / VITAL vitamin D (Manson JE et al. NEJM 380:33-44)",
+    "authors": "Manson JE et al.",
+    "url": "https://doi.org/10.1056/NEJMoa1809944",
+    "year": 2019,
+    "quality": "Large RCT; high"
+  },
+  {
+    "id": "fmf-vitd",
+    "title": "Vitamin D topic page",
+    "authors": "FoundMyFitness (Rhonda Patrick)",
+    "url": "https://www.foundmyfitness.com/topics/vitamin-d",
+    "year": 2024,
+    "quality": "Primary claimant page"
+  },
+  {
+    "id": "sulf-review",
+    "title": "Sulforaphane clinical trials review (Yagishita Y et al. 2019, Molecules 24:3593)",
+    "authors": "Yagishita Y, Fahey JW, Dinkova-Kostova AT, Kensler TW",
+    "url": "https://doi.org/10.3390/molecules24193593",
+    "year": 2019,
+    "quality": "Narrative review of human trials; moderate"
+  },
+  {
+    "id": "caveat-rp",
+    "title": "Rhonda Patrick protocols: what the evidence says",
+    "authors": "Caveat",
+    "url": "https://caveat-ai.com/checks/rhonda-patrick-protocol",
+    "year": 2025,
+    "quality": "Secondary; context"
+  },
+  {
+    "id": "nmn-review",
+    "title": "Efficacy of oral nicotinamide mononucleotide supplementation on glucose and lipid metabolism for adults: a systematic review with meta-analysis on RCTs (Crit Rev Food Sci Nutr)",
+    "authors": "(see DOI)",
+    "url": "https://doi.org/10.1080/10408398.2024.2387324",
+    "year": 2024,
+    "quality": "SR/MA of 12 RCTs (n=513); moderate"
+  },
+  {
+    "id": "metformin-tame",
+    "title": "Metformin as a Tool to Target Aging (TAME) (Cell Metab 23:1060-1065)",
+    "authors": "Barzilai N, Crandall JP, Kritchevsky SB, Espeland MA",
+    "url": "https://doi.org/10.1016/j.cmet.2016.05.011",
+    "year": 2016,
+    "quality": "Trial rationale paper; not outcome evidence"
+  },
+  {
+    "id": "masters-2019",
+    "title": "Metformin blunts muscle hypertrophy in response to progressive resistance exercise training in older adults: the MASTERS trial (Aging Cell 18:e13039)",
+    "authors": "Walton RG et al.",
+    "url": "https://doi.org/10.1111/acel.13039",
+    "year": 2019,
+    "quality": "RCT; moderate"
+  },
+  {
+    "id": "rapamycin-review",
+    "title": "Rapamycin and aging in humans: systematic review (Lee DJW et al. 2024, Lancet Healthy Longev 5:e152)",
+    "authors": "Lee DJW, Hodzic Kuerec A, Maier AB",
+    "url": "https://doi.org/10.1016/S2666-7568(23)00258-1",
+    "year": 2024,
+    "quality": "Systematic review; moderate"
+  },
+  {
+    "id": "tre-rct",
+    "title": "Calorie restriction with or without time-restricted eating in weight loss (NEJM 386:1495-1504)",
+    "authors": "Liu D et al.",
+    "url": "https://doi.org/10.1056/NEJMoa2114833",
+    "year": 2022,
+    "quality": "RCT n=139; high"
+  },
+  {
+    "id": "tre-lowe",
+    "title": "Effects of time-restricted eating on weight loss (TREAT RCT, JAMA Intern Med 180:1491-1499)",
+    "authors": "Lowe DA et al.",
+    "url": "https://doi.org/10.1001/jamainternmed.2020.4153",
+    "year": 2020,
+    "quality": "RCT; moderate"
+  },
+  {
+    "id": "creatine-cog",
+    "title": "Effects of creatine supplementation on memory in healthy individuals: systematic review and meta-analysis (Nutr Rev 81:416-427)",
+    "authors": "Prokopidis K et al.",
+    "url": "https://doi.org/10.1093/nutrit/nuac064",
+    "year": 2023,
+    "quality": "SR/MA; moderate"
+  },
+  {
+    "id": "issn-creatine",
+    "title": "ISSN position stand: safety and efficacy of creatine supplementation (J Int Soc Sports Nutr 14:18)",
+    "authors": "Kreider RB et al.",
+    "url": "https://doi.org/10.1186/s12970-017-0173-z",
+    "year": 2017,
+    "quality": "Position stand; high for muscle/performance"
+  },
+  {
+    "id": "hl-nsdr",
+    "title": "Non-sleep deep rest / Yoga nidra and dopamine (Kjaer TW et al. 2002, Cogn Brain Res 13:255-259)",
+    "authors": "Kjaer TW, Bertelsen C, Piccini P, Brooks D, Alving J, Lou HC",
+    "url": "https://doi.org/10.1016/S0926-6410(01)00106-9",
+    "year": 2002,
+    "quality": "PET study n=8; low"
+  },
+  {
+    "id": "blue-light",
+    "title": "Effects of blue-light filtering lenses: Cochrane review (Singh S et al. 2023)",
+    "authors": "Singh S, Keller PR, Busija L, et al.",
+    "url": "https://doi.org/10.1002/14651858.CD013244.pub2",
+    "year": 2023,
+    "quality": "Systematic review; high"
+  },
+  {
+    "id": "chang-2015",
+    "title": "Evening use of light-emitting eReaders negatively affects sleep, circadian timing (PNAS 112:1232-1237)",
+    "authors": "Chang AM, Aeschbach D, Duffy JF, Czeisler CA",
+    "url": "https://doi.org/10.1073/pnas.1418490112",
+    "year": 2015,
+    "quality": "Crossover RCT n=12; moderate"
+  },
+  {
+    "id": "seed-oils",
+    "title": "Omega-6 linoleic acid and coronary heart disease: meta-analysis of prospective cohorts (Farvid MS et al. Circulation 130:1568)",
+    "authors": "Farvid MS et al.",
+    "url": "https://doi.org/10.1161/CIRCULATIONAHA.114.010236",
+    "year": 2014,
+    "quality": "Cohort meta-analysis; moderate-high"
+  },
+  {
+    "id": "protein-morton",
+    "title": "Systematic review/meta-analysis of protein supplementation and resistance training gains (Br J Sports Med 52:376-384)",
+    "authors": "Morton RW et al.",
+    "url": "https://doi.org/10.1136/bjsports-2017-097608",
+    "year": 2018,
+    "quality": "SR/MA; high"
+  },
+  {
+    "id": "steps-paluch",
+    "title": "Daily steps and all-cause mortality: meta-analysis of 15 cohorts (Lancet Public Health 7:e219-e228)",
+    "authors": "Paluch AE et al.",
+    "url": "https://doi.org/10.1016/S2468-2667(21)00302-9",
+    "year": 2022,
+    "quality": "Cohort meta-analysis; high"
+  },
+  {
+    "id": "strength-mort",
+    "title": "Muscle-strengthening activities and mortality: systematic review and meta-analysis (Br J Sports Med 56:755-763)",
+    "authors": "Momma H et al.",
+    "url": "https://doi.org/10.1136/bjsports-2021-105061",
+    "year": 2022,
+    "quality": "SR/MA; moderate-high"
+  },
+  {
+    "id": "sleep-mort",
+    "title": "Sleep duration and all-cause mortality: systematic review and meta-analysis (Sleep 33:585-592)",
+    "authors": "Cappuccio FP et al.",
+    "url": "https://doi.org/10.1093/sleep/33.5.585",
+    "year": 2010,
+    "quality": "SR/MA; moderate"
+  },
+  {
+    "id": "hl-tongkat",
+    "title": "The Science of How to Optimize Testosterone & Estrogen (episode transcript)",
+    "authors": "Huberman Lab",
+    "url": "https://www.hubermanlab.com/episode/the-science-of-how-to-optimize-testosterone-and-estrogen",
+    "year": 2022,
+    "quality": "Primary transcript"
+  },
+  {
+    "id": "fadogia-rat",
+    "title": "Yakubu MT et al. 2005, Effects of Fadogia agrestis stem extract on sexual behaviour/testosterone in male rats (Asian J Androl 7:399-404)",
+    "authors": "Yakubu MT, Akanji MA, Oladiji AT",
+    "url": "https://doi.org/10.1111/j.1745-7262.2005.00052.x",
+    "year": 2005,
+    "quality": "Rat study; low for humans"
+  },
+  {
+    "id": "tongkat-ma",
+    "title": "Effect of Eurycoma longifolia on testosterone: meta-analysis (Leisegang K et al. 2022, Medicina 58:1047)",
+    "authors": "Leisegang K, Finelli R, Sikka S, Panner Selvam MK",
+    "url": "https://doi.org/10.3390/medicina58081047",
+    "year": 2022,
+    "quality": "SR/MA of small trials; low-moderate"
+  },
+  {
+    "id": "ashwa-ma",
+    "title": "Ashwagandha and stress/anxiety: systematic review and meta-analysis (Akhgarjand C et al. 2022, Phytother Res 36:4115)",
+    "authors": "Akhgarjand C et al.",
+    "url": "https://doi.org/10.1002/ptr.7598",
+    "year": 2022,
+    "quality": "SR/MA; low-moderate"
+  },
+  {
+    "id": "magl-sleep",
+    "title": "Oral magnesium supplementation for insomnia in older adults: a Systematic Review & Meta-Analysis (BMC Complement Med Ther 21:125)",
+    "authors": "Mah J, Pitre T",
+    "url": "https://doi.org/10.1186/s12906-021-03297-z",
+    "year": 2021,
+    "quality": "SR; low-certainty"
+  },
+  {
+    "id": "eat-late",
+    "title": "Hall KD et al. Ultra-processed diets cause excess calorie intake (Cell Metab 30:67-77)",
+    "authors": "Hall KD et al.",
+    "url": "https://doi.org/10.1016/j.cmet.2019.05.008",
+    "year": 2019,
+    "quality": "Inpatient RCT n=20; high internal validity"
+  },
+  {
+    "id": "zone2",
+    "title": "Much Ado About Zone 2: A Narrative Review Assessing the Efficacy of Zone 2 Training for Improving Mitochondrial Capacity and Cardiorespiratory Fitness in the General Population (Sports Med)",
+    "authors": "Storoschuk KL, Moran-MacDonald A, Gibala MJ, Gurd BJ",
+    "url": "https://doi.org/10.1007/s40279-025-02261-y",
+    "year": 2025,
+    "quality": "Narrative review; abstract verified via PubMed"
+  },
+  {
+    "id": "ldl-eas",
+    "title": "LDL causes ASCVD: EAS consensus statement (Eur Heart J 38:2459-2472)",
+    "authors": "Ference BA et al.",
+    "url": "https://doi.org/10.1093/eurheartj/ehx144",
+    "year": 2017,
+    "quality": "Consensus; high"
+  },
+  {
+    "id": "apob-attia",
+    "title": "Peter Attia on apoB (podcast/show notes)",
+    "authors": "Attia P",
+    "url": "https://peterattiamd.com/category/podcast/",
+    "year": 2024,
+    "quality": "Primary claimant source; exact episode GAP"
+  },
+  {
+    "id": "lex-podcast",
+    "title": "Lex Fridman Podcast episode index",
+    "authors": "Fridman L",
+    "url": "https://lexfridman.com/podcast/",
+    "year": 2026,
+    "quality": "Primary index; per-episode claim mapping GAP"
+  },
+  {
+    "id": "fmf-sauna",
+    "title": "Sauna topic page",
+    "authors": "FoundMyFitness (Rhonda Patrick)",
+    "url": "https://www.foundmyfitness.com/topics/sauna",
+    "year": 2026,
+    "quality": "Primary claimant page; written text"
+  },
+  {
+    "id": "goodwin-2022",
+    "title": "Single-Dose Psilocybin for a Treatment-Resistant Episode of Major Depression (NEJM 387:1637)",
+    "authors": "Goodwin GM et al.",
+    "url": "https://doi.org/10.1056/NEJMoa2206443",
+    "year": 2022,
+    "quality": "Phase 2b RCT n=233; high"
+  },
+  {
+    "id": "hl-attia-vit",
+    "title": "Dr. Peter Attia: Improve Vitality, Emotional & Physical Health & Lifespan (Huberman Lab transcript)",
+    "authors": "Huberman Lab",
+    "url": "https://www.hubermanlab.com/episode/dr-peter-attia-improve-vitality-emotional-and-physical-health-and-lifespan",
+    "year": null,
+    "quality": "Primary transcript; no inline timestamps"
+  },
+  {
+    "id": "hl-rhonda",
+    "title": "Dr. Rhonda Patrick: Micronutrients for Health & Longevity (Huberman Lab transcript)",
+    "authors": "Huberman Lab",
+    "url": "https://www.hubermanlab.com/episode/dr-rhonda-patrick-micronutrients-for-health-and-longevity",
+    "year": null,
+    "quality": "Primary transcript; no inline timestamps"
+  },
+  {
+    "id": "hl-sinclair",
+    "title": "Dr. David Sinclair: The Biology of Slowing & Reversing Aging (Huberman Lab transcript)",
+    "authors": "Huberman Lab",
+    "url": "https://www.hubermanlab.com/episode/dr-david-sinclair-the-biology-of-slowing-and-reversing-aging",
+    "year": null,
+    "quality": "Primary transcript; no inline timestamps"
+  },
+  {
+    "id": "hl-lustig",
+    "title": "Dr. Robert Lustig: How Sugar & Processed Foods Impact Your Health (Huberman Lab transcript)",
+    "authors": "Huberman Lab",
+    "url": "https://www.hubermanlab.com/episode/dr-robert-lustig-how-sugar-processed-foods-impact-your-health",
+    "year": null,
+    "quality": "Primary transcript"
+  },
+  {
+    "id": "hl-lembke",
+    "title": "Dr. Anna Lembke: Understanding & Treating Addiction (Huberman Lab transcript)",
+    "authors": "Huberman Lab",
+    "url": "https://www.hubermanlab.com/episode/dr-anna-lembke-understanding-and-treating-addiction",
+    "year": null,
+    "quality": "Primary transcript"
+  },
+  {
+    "id": "lex-435",
+    "title": "Transcript for Andrew Huberman: Focus, Controversy, Politics, and Relationships | Lex Fridman Podcast #435",
+    "authors": "Lex Fridman",
+    "url": "https://lexfridman.com/andrew-huberman-5-transcript/",
+    "year": 2024,
+    "quality": "Primary transcript with inline timestamps"
+  },
+  {
+    "id": "laukkanen-2016",
+    "title": "Sauna bathing is inversely associated with dementia and Alzheimer's disease in middle-aged Finnish men (Age Ageing 46:245)",
+    "authors": "Laukkanen T, Kunutsor S, Kauhanen J, Laukkanen JA",
+    "url": "https://doi.org/10.1093/ageing/afw212",
+    "year": 2017,
+    "quality": "Prospective cohort n=2,315; observational"
+  },
+  {
+    "id": "fahey-1997",
+    "title": "Broccoli sprouts: an exceptionally rich source of inducers of enzymes that protect against chemical carcinogens (PNAS 94:10367)",
+    "authors": "Fahey JW, Zhang Y, Talalay P",
+    "url": "https://doi.org/10.1073/pnas.94.19.10367",
+    "year": 1997,
+    "quality": "Primary lab study; high for content claim"
+  },
+  {
+    "id": "baur-2006",
+    "title": "Resveratrol improves health and survival of mice on a high-calorie diet (Nature 444:337)",
+    "authors": "Baur JA ... Sinclair DA",
+    "url": "https://doi.org/10.1038/nature05354",
+    "year": 2006,
+    "quality": "Mouse study co-authored by claimant"
+  },
+  {
+    "id": "strong-2013",
+    "title": "Evaluation of resveratrol, green tea extract, curcumin, oxaloacetic acid, and MCT oil on life span of genetically heterogeneous mice (J Gerontol A 68:6)",
+    "authors": "Strong R et al. (NIA ITP)",
+    "url": "https://doi.org/10.1093/gerona/gls070",
+    "year": 2013,
+    "quality": "Multi-site NIA ITP; high for mice"
+  },
+  {
+    "id": "ng-2012",
+    "title": "Use of caloric and noncaloric sweeteners in US consumer packaged foods, 2005-2009 (J Acad Nutr Diet 112:1828)",
+    "authors": "Ng SW, Slining MM, Popkin BM",
+    "url": "https://doi.org/10.1016/j.jand.2012.07.009",
+    "year": 2012,
+    "quality": "Large database analysis; high for prevalence"
+  },
+  {
+    "id": "volkow-2001",
+    "title": "Loss of dopamine transporters in methamphetamine abusers recovers with protracted abstinence (J Neurosci 21:9414)",
+    "authors": "Volkow ND et al.",
+    "url": "https://doi.org/10.1523/JNEUROSCI.21-23-09414.2001",
+    "year": 2001,
+    "quality": "PET n=5; low"
+  },
+  {
+    "id": "brown-1988",
+    "title": "Changes in depression among abstinent alcoholics (J Stud Alcohol 49:412)",
+    "authors": "Brown SA, Schuckit MA",
+    "url": "https://doi.org/10.15288/jsa.1988.49.412",
+    "year": 1988,
+    "quality": "Inpatient cohort n=191; moderate"
+  }
+]
